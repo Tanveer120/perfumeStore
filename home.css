@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.nav_container
+{
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.navLogo
+{
+    height: 60px;
+}
+
+.searchBar
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 50px;
+    width: 500px;
+    border-bottom: 2px solid black;
+}
+
+.searchBar:hover
+{
+    border-bottom: 2px solid red;
+}
+
+.searchBar input
+{
+    width: 65%;
+    height: 30px;
+    border: 0;
+    text-align: left;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.searchBar input:focus
+{
+    outline: none;
+}
+
+
+.searchBar i
+{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.searchBar select
+{
+    background-color: transparent;
+    border: 0;
+    font-size: 0.8rem;
+}
+
+.linkContainer
+{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.linkContainer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.linkContainer p{
+    display: inline;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.productCard{
+    height: 300px;
+    width: 250px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.prodImg{
+    height: 60%;width: auto;
+}
+
+.prodName{
+    font-size: 1rem;
+}

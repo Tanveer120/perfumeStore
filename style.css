@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "poppins";
+}
+
+body{
+    font-size: 20px;
+}
+
+nav{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.navlogo{
+    /* margin-right: auto; */
+}
+
+.signInButton{
+    margin-left: auto;
+}
+
+.signUpButton{
+    margin-left: 20px;
+}
+
+.commonButton{
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    /* padding: 10px; */
+}
+
+.heroSection{
+    background-color: bisque;
+    height: 500px;
+    width: 100vw;
+}

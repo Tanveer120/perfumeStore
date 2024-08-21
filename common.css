@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "poppins", sans-serif !important;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(aqua, blueviolet);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fffbfa;
+  width: 700px;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.loginMainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fffbfa;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.registerHeader {
+  font-size: 50px;
+  padding-top: -400px;
+  padding-bottom: 50px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.mainDiv .tbInput {
+  width: 500px;
+  height: 35px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #96c0b7;
+  background-color: aqua;
+  background: rgba(116, 55, 247, 0.4);
+}
+
+.loginMainDiv .tbInput {
+  width: 500px;
+  height: 35px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #96c0b7;
+  background-color: aqua;
+  background: rgba(116, 55, 247, 0.4);
+}
+
+.mainDiv .tbInput:hover {
+  scale: 1.01;
+}
+
+.loginMainDiv .tbInput:hover {
+  scale: 1.01;
+}
+
+.tbInput::placeholder {
+  color: black;
+}
+
+.submitButton {
+  background: rgba(116, 55, 247, 0.4);
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 30px;
+  /* padding: 20px; */
+  margin: 10px;
+}
+
+.submitButton:hover {
+  scale: 1.03;
+}
+
+.buttonContainer{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
